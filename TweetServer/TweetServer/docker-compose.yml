@@ -1,0 +1,27 @@
+﻿version: '3.0'
+
+services:
+   db:
+     container_name: kwetter-db
+     image: mysql:8.0
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_DATABASE: tweetdb
+     volumes:
+       - dbdata:/var/lib/mysql
+       - ./_MySQL_Init_Script:/docker-entrypoint-initdb.d
+     restart: always
+
+   tweetapi:
+     depends_on:
+       - db
+     restart: always
+     ports:
+       - "8080:8080"
+     image: ghcr.io/Vincent-Lauwen/Tweet-Service:main
+     build:
+       context: .
+     
+
+volumes:
+    dbdata:
