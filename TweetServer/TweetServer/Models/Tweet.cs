@@ -8,18 +8,6 @@ namespace TweetServer.Models
         public string Content { get; private set; }
         public int Likes { get; private set; }
         public DateTime PublishDate { get; private set; }
-
-        public Tweet()
-        {
-
-        }
-
-        public Tweet(string id, string content, int likes, DateTime publishDate)
-        {
-            Id = id;
-            Content = content;
-            Likes = likes;
-            PublishDate = publishDate;
-        }
+        public string User_Id { get; private set; }
     }
 }

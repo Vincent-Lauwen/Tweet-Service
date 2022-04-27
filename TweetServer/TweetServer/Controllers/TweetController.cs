@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RabbitMQ.Client;
+using System.Text;
 using TweetServer.Models;
 using TweetServer.Repositories;
 
@@ -16,6 +18,37 @@ namespace TweetServer.Controllers
         public TweetController(ILogger<TweetController> logger)
         {
             _logger = logger;
+        }
+
+        // GET: api/<TweetController>
+        [HttpGet("/rabbit")]
+        public void RabbitMQSenderTest()
+        {
+            try
+            {
+                ConnectionFactory factory = new ConnectionFactory()
+                {
+                    HostName = "localhost",
+                    Port = 5672,
+                    UserName = "guest",
+                    Password = "guest",
+                };
+
+                using IConnection connection = factory.CreateConnection();  
+                IModel model = connection.CreateModel();
+
+                model.ExchangeDeclare("KwetterTest", ExchangeType.Fanout, true, true, null);
+
+                string message = "Hello World! Im Vincent!";
+                byte[] bytes = Encoding.Unicode.GetBytes(message);
+                ReadOnlyMemory<byte> body = bytes;
+                model.BasicPublish("KwetterTest", "", null, body);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
 
         // GET: api/<TweetController>
