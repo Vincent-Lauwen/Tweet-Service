@@ -15,9 +15,10 @@ namespace TweetServer.Controllers
         private ITweetRepo _repository;
         private readonly ILogger<TweetController> _logger;
 
-        public TweetController(ILogger<TweetController> logger)
+        public TweetController(ILogger<TweetController> logger, ITweetRepo repo)
         {
             _logger = logger;
+            _repository = repo;
         }
 
         // GET: api/<TweetController>

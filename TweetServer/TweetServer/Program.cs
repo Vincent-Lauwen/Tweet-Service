@@ -2,6 +2,7 @@ using TweetServer.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Diagnostics;
 using System.Net;
+using TweetServer.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<ITweetRepo, TweetRepo>();
 
 var connectionString = builder.Configuration.GetConnectionString(name: "DefaultConnection");
 builder.Services.AddDbContext<ServerDbContext>(options => {
