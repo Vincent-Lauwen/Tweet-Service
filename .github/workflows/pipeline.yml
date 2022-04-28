@@ -48,11 +48,11 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore ./Solution/TweetServer/TweetServer.csproj
+      run: dotnet restore 
     - name: Build
-      run: dotnet build --no-restore ./Solution/TweetServer/TweetServer.csproj
+      run: dotnet build --no-restore 
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./Solution/TweetServerTest/TweetServerTest.csproj
+      run: dotnet test --no-build --verbosity normal
 
 
   publish_image:
