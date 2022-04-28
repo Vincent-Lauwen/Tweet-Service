@@ -50,9 +50,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./Solution/TweetServer/TweetServer.csproj
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore ./Solution/TweetServer/TweetServer.csproj
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal ./Solution/TweetServerTest/TweetServerTest.csproj
 
 
   publish_image:
