@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetServer", "TweetServer\TweetServer.csproj", "{C1F4990F-62F8-4D3A-8ABE-C0A7AE1EFC0D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetServerTest", "TweetServerTest\TweetServerTest.csproj", "{A25491A4-462E-4263-9D0B-DAC6B9439668}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetServerTest", "TweetServerTest\TweetServerTest.csproj", "{A25491A4-462E-4263-9D0B-DAC6B9439668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
