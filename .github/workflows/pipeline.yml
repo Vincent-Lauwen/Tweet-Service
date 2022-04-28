@@ -48,7 +48,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore ./solution/
+      run: dotnet restore ./Solution/TweetServer/TweetServer.csproj
     - name: Build
       run: dotnet build --no-restore
     - name: Test
