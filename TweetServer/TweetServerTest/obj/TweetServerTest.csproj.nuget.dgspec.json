@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServerTest\\TweetServerTest.csproj": {}
+    "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServerTest\\TweetServerTest.csproj": {}
   },
   "projects": {
-    "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServerTest\\TweetServerTest.csproj": {
+    "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServerTest\\TweetServerTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServerTest\\TweetServerTest.csproj",
+        "projectUniqueName": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServerTest\\TweetServerTest.csproj",
         "projectName": "TweetServerTest",
-        "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServerTest\\TweetServerTest.csproj",
+        "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServerTest\\TweetServerTest.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServerTest\\obj\\",
+        "outputPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServerTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj": {
-                "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj"
+              "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer\\TweetServer.csproj": {
+                "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer\\TweetServer.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj": {
+    "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer\\TweetServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj",
+        "projectUniqueName": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer\\TweetServer.csproj",
         "projectName": "TweetServer",
-        "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj",
+        "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer\\TweetServer.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\obj\\",
+        "outputPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
