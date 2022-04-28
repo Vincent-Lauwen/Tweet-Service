@@ -74,7 +74,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ghcr.io/vincent-lauwen/tweet-service:main
-          username: S6Vincent
+          username: Vincent-Lauwen
           password:  ${{ secrets.GHCR_TOKEN }}
       - name: Extract metadata (tags, labels) for Docker
         id: meta
