@@ -36,7 +36,7 @@ namespace TweetServerTest
         }
 
         [TestMethod]
-        public void Get_All_Claims()
+        public void Get_All_Tweets()
         {
             List<Tweet> tweets = _tweetRepo.GetAll();
 
