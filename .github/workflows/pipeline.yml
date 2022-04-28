@@ -52,7 +52,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore ./TweetServer/TweetServer/TweetServer.csproj
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal ./TweetServer/TweetServerTest/TweetServerTest.csproj
 
 
   publish_image:
