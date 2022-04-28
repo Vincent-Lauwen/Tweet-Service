@@ -1127,11 +1127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer\\TweetServer.csproj",
+      "projectUniqueName": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj",
       "projectName": "TweetServer",
-      "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer\\TweetServer.csproj",
+      "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj",
       "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-      "outputPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer\\obj\\",
+      "outputPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",

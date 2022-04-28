@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetServer", "TweetServer\TweetServer.csproj", "{C1F4990F-62F8-4D3A-8ABE-C0A7AE1EFC0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetServerTest", "TweetServerTest\TweetServerTest.csproj", "{A25491A4-462E-4263-9D0B-DAC6B9439668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1F4990F-62F8-4D3A-8ABE-C0A7AE1EFC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F4990F-62F8-4D3A-8ABE-C0A7AE1EFC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F4990F-62F8-4D3A-8ABE-C0A7AE1EFC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F4990F-62F8-4D3A-8ABE-C0A7AE1EFC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25491A4-462E-4263-9D0B-DAC6B9439668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25491A4-462E-4263-9D0B-DAC6B9439668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25491A4-462E-4263-9D0B-DAC6B9439668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25491A4-462E-4263-9D0B-DAC6B9439668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {966EFB3E-48C0-4B46-9C0F-FBE2FC9B6FDE}
+	EndGlobalSection
+EndGlobal
