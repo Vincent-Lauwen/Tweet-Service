@@ -27,7 +27,7 @@ services:
     image: ghcr.io/Vincent-Lauwen/Tweet-Service:latest
 
 networks:
-  driessen-net:
-    name: "driessen-net"
+  vincent-net:
+    name: "vincent-net"
   internal-net:
 
