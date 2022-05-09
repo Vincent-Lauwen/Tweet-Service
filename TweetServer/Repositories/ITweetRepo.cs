@@ -6,6 +6,6 @@ namespace TweetServer.Repositories
     {
         List<Tweet> GetAll();
         List<Tweet> GetTweetsByUser(string userId);
-        void CreateTweet(Tweet tweet);
+        Tweet CreateTweet(Tweet tweet);
     }
 }

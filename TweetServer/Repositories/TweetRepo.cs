@@ -12,9 +12,10 @@ namespace TweetServer.Repositories
             _context = context;
         }
 
-        public void CreateTweet(Tweet tweet)
+        public Tweet CreateTweet(Tweet tweet)
         {
-            throw new NotImplementedException();
+            _context.Tweets.Add(tweet);
+            return tweet;
         }
 
         public List<Tweet> GetAll()
@@ -24,7 +25,8 @@ namespace TweetServer.Repositories
 
         public List<Tweet> GetTweetsByUser(string userId)
         {
-            throw new NotImplementedException();
+            return _context.Tweets.Where(x => x.User_Id == userId).ToList(); 
         }
+
     }
 }

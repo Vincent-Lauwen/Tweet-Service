@@ -82,8 +82,23 @@ namespace TweetServer.Controllers
 
         // POST api/<TweetController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult<Tweet> PostTweet([FromBody] Tweet tweet)
         {
+            try
+            {
+                if (tweet == null || tweet.Content == null)
+                {
+                    return BadRequest("Tweets' message is null or message invalid");
+                }
+
+                var createdTweet = _repository.CreateTweet(tweet);
+
+                return Ok(tweet);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // PUT api/<TweetController>/5
