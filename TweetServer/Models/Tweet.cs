@@ -5,16 +5,6 @@ namespace TweetServer.Models
 {
     public class Tweet
     {
-        public string Id { get; private set; }
-        public string Content { get; private set; }
-        public int Likes { get; private set; }
-        public DateTime PublishDate { get; private set; }
-        public string User_Id { get; private set; }
-
-        public Tweet()
-        {
-        }
-
         public Tweet(string id, string content, int likes, DateTime publishDate, string user_Id)
         {
             Id = id;
@@ -23,6 +13,16 @@ namespace TweetServer.Models
             PublishDate = publishDate;
             User_Id = user_Id;
         }
+        public Tweet()
+        {
+
+        }
+
+        public string Id { get; set; }
+        public string Content { get; set; }
+        public int Likes { get; set; }
+        public DateTime PublishDate { get; set; }
+        public string User_Id { get; set; }
 
         
     }

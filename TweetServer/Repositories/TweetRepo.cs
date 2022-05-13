@@ -15,6 +15,7 @@ namespace TweetServer.Repositories
         public Tweet CreateTweet(Tweet tweet)
         {
             _context.Tweets.Add(tweet);
+            _context.SaveChanges();
             return tweet;
         }
 
