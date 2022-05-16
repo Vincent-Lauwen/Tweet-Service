@@ -78,6 +78,8 @@ jobs:
           password:  ${{ secrets.GHCR_TOKEN }}
       - name: Extract metadata (tags, labels) for Docker
         id: meta
+        with:
+          images: ghcr.io/vincent-lauwen/tweet-service:main
         uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
