@@ -41,7 +41,7 @@ namespace TweetServerTest
             List<Tweet> tweets = _tweetRepo.GetAll();
 
             Assert.AreEqual(3, tweets.Count);
-            Assert.AreEqual("Eerse content", tweets[0].Content);
+            Assert.AreEqual("Eerste content", tweets[0].Content);
         }
     }
 }
