@@ -37,26 +37,31 @@ jobs:
       #    SONAR_HOST_URL: ${{ secrets.SONARQUBE_HOST }}
       #  run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=K4CZP3R_s6p-create-service_AX_5cOyx4Hw7FhtMoV9A
 
-  test:
+  build:
     needs: [analyse]
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dotnet-version: ['5.0.x', '6.0.x' ]
 
     steps:
     - uses: actions/checkout@v3
-    - name: Setup .NET
+    - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: 6.0.x
-    - name: Restore dependencies
-      run: dotnet restore ./TweetServer/TweetServer.csproj
+        dotnet-version: ${{ matrix.dotnet-version }}
+    - name: Display dotnet version
+      run: dotnet --version
+    - name: Install dependencies
+      run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore ./TweetServer/TweetServer.csproj
+      run: dotnet build --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./TweetServerTest/TweetServerTest.csproj
+      run: dotnet test --no-restore --verbosity normal
 
 
   publish_image:
-    needs: [analyse, test]
+    needs: [analyse, build]
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     permissions:
