@@ -11,7 +11,7 @@ using TweetServer.Context;
 namespace TweetServer.Migrations
 {
     [DbContext(typeof(ServerDbContext))]
-    [Migration("20220511090024_DBInit")]
+    [Migration("20220518130944_DBInit")]
     partial class DBInit
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
