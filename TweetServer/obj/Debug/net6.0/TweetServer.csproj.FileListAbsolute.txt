@@ -70,3 +70,4 @@ E:\S6\Own project\Project\Tweet-Service\TweetServer\obj\Debug\net6.0\refint\Twee
 E:\S6\Own project\Project\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.pdb
 E:\S6\Own project\Project\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.genruntimeconfig.cache
 E:\S6\Own project\Project\Tweet-Service\TweetServer\obj\Debug\net6.0\ref\TweetServer.dll
+E:\S6\Own project\Project\Tweet-Service\TweetServer\bin\Debug\net6.0\Newtonsoft.Json.dll

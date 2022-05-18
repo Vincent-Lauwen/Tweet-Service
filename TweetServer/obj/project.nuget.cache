@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yN0c6gkkiIT2ocv2HQR6lFN/BzJudaI8oOwm6yVcQwwA/RDp7tw8EnxCuOr9QU/a/sAsIdBvMXpQs0rNokG1Kw==",
+  "dgSpecHash": "6SADvLJWJKJDRp2cyVeHG9JEtm6OwL+sM6PluWwICQeC08JAFL4RGaRkpPngIBVU0s4jStHufr7g5BX5ngP/Hw==",
   "success": true,
   "projectFilePath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.0\\microsoft.visualstudio.azure.containers.tools.targets.1.15.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.1\\pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\rabbitmq.client\\6.2.4\\rabbitmq.client.6.2.4.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.0\\swashbuckle.aspnetcore.6.3.0.nupkg.sha512",

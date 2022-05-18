@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Diagnostics;
 using System.Net;
 using TweetServer.Repositories;
+using RabbitMQ;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,15 +15,19 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Add scopes to the build
 builder.Services.AddScoped<ITweetRepo, TweetRepo>();
+builder.Services.AddScoped<IMessageProducer, RabbitMQProducer>();
+builder.Services.AddHostedService<RabbitMQConsumer>();
 
-var connectionString = builder.Configuration.GetConnectionString(name: "DefaultConnection");
+//Giving context access to mysql database
+var connectionString = builder.Configuration.GetConnectionString(name: "MySqlConnection");
 builder.Services.AddDbContext<ServerDbContext>(options => {
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 
+//Giving frontend access to this service
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,
@@ -32,7 +37,13 @@ builder.Services.AddCors(options =>
                       });
 });
 
+
+
+
 var app = builder.Build();
+
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -41,15 +52,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseHttpsRedirection();
-
 app.UseRouting();
-
 app.UseCors(MyAllowSpecificOrigins);
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
