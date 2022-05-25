@@ -9,7 +9,7 @@
 ## Building it (prod)
 
 1. `docker compose -f docker-compose.prod.yml build`
-2. `echo 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 | docker login ghcr.io -u Vincent-Lauwen --password-stdin`
+2. Soms als je uitgelogd bent: `echo githubtoken | docker login ghcr.io -u Vincent-Lauwen --password-stdin`
 2. `docker compose -f docker-compose.prod.yml push`
 
 ## Problems while running?
