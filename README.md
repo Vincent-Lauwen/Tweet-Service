@@ -1,7 +1,7 @@
 # Tweet-Service
 
 ## Running it (development)
-1. `docker compose -f docker-compose.yml up`: Starts database in Docker
+1. `docker-compose -f docker-compose.yml up`: Starts database in Docker
 2. `Add-Migration DBInit` &
 3. `Update-Database` to migrate models to database
 2. Run service from Intellij or use mvn
@@ -10,7 +10,7 @@
 
 1. `docker compose -f docker-compose.prod.yml build`
 2. Soms als je uitgelogd bent: `echo githubtoken | docker login ghcr.io -u Vincent-Lauwen --password-stdin`
-2. `docker compose -f docker-compose.prod.yml push`
+2. `docker-compose -f docker-compose.prod.yml push`
 
 ## Problems while running?
 

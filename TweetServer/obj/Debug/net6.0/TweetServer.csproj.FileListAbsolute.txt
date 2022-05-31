@@ -71,3 +71,40 @@ E:\S6\Own project\Project\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer
 E:\S6\Own project\Project\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.genruntimeconfig.cache
 E:\S6\Own project\Project\Tweet-Service\TweetServer\obj\Debug\net6.0\ref\TweetServer.dll
 E:\S6\Own project\Project\Tweet-Service\TweetServer\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\appsettings.json
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\TweetServer.exe
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\TweetServer.deps.json
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\TweetServer.runtimeconfig.json
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\TweetServer.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\TweetServer.pdb
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.AssemblyInfo.cs
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\scopedcss\bundle\TweetServer.styles.css
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.csproj.CopyComplete
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\refint\TweetServer.dll
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.pdb
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\TweetServer.genruntimeconfig.cache
+C:\Users\Gebruiker\Documents\GitHub\Tweet-Service\TweetServer\obj\Debug\net6.0\ref\TweetServer.dll

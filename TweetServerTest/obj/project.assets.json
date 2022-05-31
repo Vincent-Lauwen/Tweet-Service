@@ -6943,11 +6943,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServerTest\\TweetServerTest.csproj",
+      "projectUniqueName": "C:\\Users\\Gebruiker\\Documents\\GitHub\\Tweet-Service\\TweetServerTest\\TweetServerTest.csproj",
       "projectName": "TweetServerTest",
-      "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServerTest\\TweetServerTest.csproj",
+      "projectPath": "C:\\Users\\Gebruiker\\Documents\\GitHub\\Tweet-Service\\TweetServerTest\\TweetServerTest.csproj",
       "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-      "outputPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServerTest\\obj\\",
+      "outputPath": "C:\\Users\\Gebruiker\\Documents\\GitHub\\Tweet-Service\\TweetServerTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6964,8 +6964,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj": {
-              "projectPath": "E:\\S6\\Own project\\Project\\Tweet-Service\\TweetServer\\TweetServer.csproj"
+            "C:\\Users\\Gebruiker\\Documents\\GitHub\\Tweet-Service\\TweetServer\\TweetServer.csproj": {
+              "projectPath": "C:\\Users\\Gebruiker\\Documents\\GitHub\\Tweet-Service\\TweetServer\\TweetServer.csproj"
             }
           }
         }
@@ -7016,7 +7016,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
