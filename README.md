@@ -1,16 +1,14 @@
 # Tweet-Service
 
-## Running it (development)
-1. `docker-compose -f docker-compose.yml up`: Starts database in Docker
-2. `Add-Migration DBInit` &
-3. `Update-Database` to migrate models to database
-2. Run service from Intellij or use mvn
+## Manually use docker
+1. `docker-compose -f docker-compose.yml up` : start container in Docker
 
-## Building it (prod)
+## Need db context to migrate?
+1. `Add-Migration DBInit` &
+2. `Update-Database` to migrate models to database
 
-1. `docker compose -f docker-compose.prod.yml build`
-2. Soms als je uitgelogd bent: `echo githubtoken | docker login ghcr.io -u Vincent-Lauwen --password-stdin`
-2. `docker-compose -f docker-compose.prod.yml push`
+## Need to auth with docker?
+1. `echo githubtoken | docker login ghcr.io -u Vincent-Lauwen --password-stdin`
 
 ## Problems while running?
 
