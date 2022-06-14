@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-    name: "kwetterk8s-9bbf"
+    name: "kwetterk8s-tweetservice"
     labels:
-        app: "kwetterk8s-9bbf"
+        app: "kwetterk8s-tweetservice"
 spec:
     type: LoadBalancer
     ports:
@@ -12,4 +12,4 @@ spec:
       protocol: TCP
       name: http
     selector:
-        app: "kwetterk8s-9bbf"
+        app: "kwetterk8s-tweetservice"
